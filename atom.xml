@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wipe672.github.io</id>
     <title>moe&apos;s space</title>
-    <updated>2020-05-20T04:47:46.569Z</updated>
+    <updated>2020-05-21T02:46:31.749Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wipe672.github.io"/>
     <link rel="self" href="https://wipe672.github.io/atom.xml"/>
@@ -10,6 +10,17 @@
     <logo>https://wipe672.github.io/images/avatar.png</logo>
     <icon>https://wipe672.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, moe&apos;s space</rights>
+    <entry>
+        <title type="html"><![CDATA[网站优化的几点建议]]></title>
+        <id>https://wipe672.github.io/post/wang-zhan-you-hua-de-ji-dian-jian-yi/</id>
+        <link href="https://wipe672.github.io/post/wang-zhan-you-hua-de-ji-dian-jian-yi/">
+        </link>
+        <updated>2020-05-21T02:39:55.000Z</updated>
+        <content type="html"><![CDATA[<p>1.使用http/2,单线复用，提高访问效率；</p>
+<p>2.使用HSTS preload,即在nginx配置中的server附近加上add_header Strict-Transport-Security, max-age=63072000（此值必须大于15768000），includeSubDomains,preload实现预加载，从而保证传输安全，减少加载时间；</p>
+<p>3.使用cdn产品，使网站更高效运作。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[致君书信上，但使情意淳]]></title>
         <id>https://wipe672.github.io/post/zhi-jun-shu-xin-shang-dan-shi-qing-yi-chun/</id>
