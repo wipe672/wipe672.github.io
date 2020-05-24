@@ -1,61 +1,123 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<meta charset="utf-8" >
+
 <title>致君书信上，但使情意淳 | moe&#39;s space</title>
-<link rel="shortcut icon" href="https://wipe672.github.io/favicon.ico?v=1590298764179">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<meta name="description" content="温故而知新">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://wipe672.github.io/favicon.ico?v=1590302116756">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://wipe672.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="致君书信上，但使情意淳 | moe&#39;s space - Atom Feed" href="https://wipe672.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="书信作为一种传情达意的方式，历来为世人所沿用。一封信蕴含着丰富的情感，或祝福，或悲伤，或叹惋。“烽火连三月，家书抵万金。”在那个战乱年代，家书无比珍贵。而今，由于科技的发展，手机成为了交流的主要渠道，越来越少的人使用书信，书信这一情感载体渐..." />
-    <meta name="keywords" content="随笔" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://wipe672.github.io">
-  <img class="avatar" src="https://wipe672.github.io/images/avatar.png?v=1590298764179" alt="">
-  </a>
-  <h1 class="site-title">
-    moe&#39;s space
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://wipe672.github.io">
+        <img class="avatar" src="https://wipe672.github.io/images/avatar.png?v=1590302116756" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://wipe672.github.io">
+        <h1 class="site-title">moe&#39;s space</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">致君书信上，但使情意淳</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2020-05-17</span>
+            
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://wipe672.github.io/tag/qMSoVVPDw/">
+                    随笔
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <p>书信作为一种传情达意的方式，历来为世人所沿用。一封信蕴含着丰富的情感，或祝福，或悲伤，或叹惋。“烽火连三月，家书抵万金。”在那个战乱年代，家书无比珍贵。而今，由于科技的发展，手机成为了交流的主要渠道，越来越少的人使用书信，书信这一情感载体渐行渐远。对此，我感到十分惆怅，书信上的内容寄寓着对收信人真切浓郁的情感，是电话和短信难以比拟的。正因为这样，我提议书信应被人们重视起来。致君书信上，但使情意淳。<br>
+一封信传递一份情，一行字吐露一片心。在交通不便的古时，书信是联系亲情、友情等情感的纽带。法国修女哀绿绮思说：“狄德罗说，书信是人生的安慰。其实何止是安慰，更有多少鼓舞，多少温暖，多少真诚的祈愿，多少忧患的分担，都以书信的形式成为友谊的见证。”驿寄梅花，鱼传尺素，这是古人表达彼此之间情感的方式，常被今人提起。而现在，信息四通八达，科技日新月异，人们常通过QQ、微信沟通，越来越多的人喜欢刷朋友圈、发动态进行交流互动，古时那种久经等待后收到对方来信时的喜悦早已消失殆尽。现代的这些交流方式固有其便利，但比不上古时人们一笔一划认真书写的每一个字，每一句话所表达的真实态度与真切情感。此外，写信的过程也展现了你的思想轨迹与情感世界，比起电话与网络自媒体更具意蕴与气质。阅读朱自清、傅雷的书信，你会发现其中蕴含的文化特质和深沉情感。<br>
+　  白纸黑字，看似简单，实则不凡。读信时虽不能见到对方，但已然足矣，因为人未到，情先露。书信和现在多媒体式的交流途径相比，少了些花哨和匆忙，多了些淳朴与沉静。</p>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://wipe672.github.io/post/hello-gridea/">
+              <h3 class="post-title">
+                下一篇：Hello Gridea
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">温故而知新</div>
   <div class="social-container">
     
       
@@ -69,103 +131,26 @@
       
     
   </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://wipe672.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              致君书信上，但使情意淳
-            </h2>
-            <div class="post-info">
-              <span>
-                2020-05-17
-              </span>
-              <span>
-                2 min read
-              </span>
-              
-                <a href="https://wipe672.github.io/tag/qMSoVVPDw/" class="post-tag">
-                  # 随笔
-                </a>
-              
-            </div>
-            
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>书信作为一种传情达意的方式，历来为世人所沿用。一封信蕴含着丰富的情感，或祝福，或悲伤，或叹惋。“烽火连三月，家书抵万金。”在那个战乱年代，家书无比珍贵。而今，由于科技的发展，手机成为了交流的主要渠道，越来越少的人使用书信，书信这一情感载体渐行渐远。对此，我感到十分惆怅，书信上的内容寄寓着对收信人真切浓郁的情感，是电话和短信难以比拟的。正因为这样，我提议书信应被人们重视起来。致君书信上，但使情意淳。<br>
-一封信传递一份情，一行字吐露一片心。在交通不便的古时，书信是联系亲情、友情等情感的纽带。法国修女哀绿绮思说：“狄德罗说，书信是人生的安慰。其实何止是安慰，更有多少鼓舞，多少温暖，多少真诚的祈愿，多少忧患的分担，都以书信的形式成为友谊的见证。”驿寄梅花，鱼传尺素，这是古人表达彼此之间情感的方式，常被今人提起。而现在，信息四通八达，科技日新月异，人们常通过QQ、微信沟通，越来越多的人喜欢刷朋友圈、发动态进行交流互动，古时那种久经等待后收到对方来信时的喜悦早已消失殆尽。现代的这些交流方式固有其便利，但比不上古时人们一笔一划认真书写的每一个字，每一句话所表达的真实态度与真切情感。此外，写信的过程也展现了你的思想轨迹与情感世界，比起电话与网络自媒体更具意蕴与气质。阅读朱自清、傅雷的书信，你会发现其中蕴含的文化特质和深沉情感。<br>
-　  白纸黑字，看似简单，实则不凡。读信时虽不能见到对方，但已然足矣，因为人未到，情先露。书信和现在多媒体式的交流途径相比，少了些花哨和匆忙，多了些淳朴与沉静。</p>
 
-              </div>
-              <div class="toc-container">
-                
-              </div>
-            </div>
-          </article>
-        </div>
-
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="https://wipe672.github.io/post/hello-gridea/">
-              <h3 class="post-title">
-                Hello Gridea
-              </h3>
-            </a>
-          </div>
-        
-
-        
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://wipe672.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
-      </div>
     </div>
+    <script type="application/javascript">
 
-    <script>
-      hljs.initHighlightingOnLoad()
+hljs.initHighlightingOnLoad()
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+</script>
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+
   </body>
 </html>
